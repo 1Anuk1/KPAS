@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 3</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h2 style="text-align: center; margin-bottom: 15%;">Programa web para consultar información de países</h2>
+    <h3 style="text-align: center;">Para consultar informacion acerca de un pais, ingrese el nombre del pais:</h3>
+    <form id="formulario" style="text-align: center;">
+        <label for="pais">Nombre del país:</label>
+        <input type="text" id="pais" name="pais" required>
+        <button type="submit" id="busqp" style="cursor: pointer;">Buscar</button> <pre>Nota: Se tiene que introducir el nombre del pais en ingles</pre>
+        <h3 id="nombre"></h3>
+        <img id="bandera" src="" alt="" style="width: 200px; height: auto; display: block; margin: 0 auto;">
+        <p id="n_oficial"></p>
+        <p id="capital"></p>
+        <p id="poblacion"></p>
+        <p id="Ubicacion"></p>
+        <a id="mapa" href="" target="_blank"></a>
+        <iframe id="iframe_mapa" width="600" height="450" style="display:block; margin:0 auto;" frameborder="0"></iframe>
+    </form>
+    <h3 style="text-align: center;">Algunos tops que pueden interesarte:</h3>
+    <Section id="botones">
+    <form style="text-align: center;">
+        <button id="boton1">Top1</button> 
+        <button id="boton2">Top2</button> <br>
+        <button id="boton3">Top3</button>
+        <button id="boton4">Top4</button>
+    </form>
+    </Section>
+    </form>
+
+
+
+<script src="app.js"></script>
+
+    
+</body>
+</html>
