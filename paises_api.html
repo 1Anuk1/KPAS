@@ -7,12 +7,22 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <h2 style="text-align: center; margin-bottom: 15%;">Programa web para consultar información de países</h2>
-    <h3 style="text-align: center;">Para consultar informacion acerca de un pais, ingrese el nombre del pais:</h3>
+
+  <section id="sp">
+
+    <h2 style="text-align: center; background-color: rgb(148, 150, 140); width: 60%; margin: 0 auto 5% auto;">Programa web para consultar información de países</h2>
+
+    <img src="Global Warming Spinning Sticker by Met Office weather.gif" alt="Descripción del GIF"
+         style="float: left; margin: 10px; width: 80px; height: auto;">
+    <img src="Global Warming Spinning Sticker by Met Office weather.gif" alt="Descripción del GIF"
+         style="float: right; margin: 10px; width: 80px; height: auto;">
+    
+    
+    <h3 style="text-align: center;">Para consultar información acerca de un país, ingrese el nombre del país:</h3>
     <form id="formulario" style="text-align: center;">
         <label for="pais">Nombre del país:</label>
         <input type="text" id="pais" name="pais" required>
-        <button type="submit" id="busqp" style="cursor: pointer;">Buscar</button> <pre>Nota: Se tiene que introducir el nombre del pais en ingles</pre>
+        <button type="submit" id="busqp" style="cursor: pointer;">Buscar</button>  <small>Nota: Se tiene que introducir el nombre del pais en ingles</small>
         <h3 id="nombre"></h3>
         <img id="bandera" src="" alt="" style="width: 200px; height: auto; display: block; margin: 0 auto;">
         <p id="n_oficial"></p>
@@ -22,21 +32,8 @@
         <a id="mapa" href="" target="_blank"></a>
         <iframe id="iframe_mapa" width="600" height="450" style="display:block; margin:0 auto;" frameborder="0"></iframe>
     </form>
-    <h3 style="text-align: center;">Algunos tops que pueden interesarte:</h3>
-    <Section id="botones">
-    <form style="text-align: center;">
-        <button id="boton1">Top1</button> 
-        <button id="boton2">Top2</button> <br>
-        <button id="boton3">Top3</button>
-        <button id="boton4">Top4</button>
-    </form>
-    </Section>
-    </form>
+    <script src="app.js"></script>
+  </section>
 
-
-
-<script src="app.js"></script>
-
-    
 </body>
 </html>

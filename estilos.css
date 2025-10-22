@@ -1,0 +1,11 @@
+#sp {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border: 2px ;
+    border-radius: 25px;
+    background-color: rgb(255, 251, 230);
+    box-shadow: 0 0 10px rgb(190, 185, 185);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
