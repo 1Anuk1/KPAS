@@ -6,6 +6,57 @@
     border-radius: 25px;
     background-color: rgb(255, 251, 230);
     box-shadow: 0 0 10px rgb(190, 185, 185);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     
 }
+
+.commentbox {
+            width: 100%;
+            max-width: 500px; /* ancho máximo reducido */
+            margin: 0 auto;    /* centrar */
+            min-height: 150px; /* altura mínima reducida */
+            height: auto;
+            box-sizing: border-box;
+        }
+
+        @media (max-width: 480px) {
+            .commentbox {
+                min-height: 100px;
+            }
+        }
+
+        body {
+            background-color: tan;
+        }
+        .main {
+            font-size: 20px;
+            margin: 20px;
+            display: block;
+            text-align: center;
+            background-color: rgb(253, 254, 255);
+        }
+
+        .tenor-gif-embed {
+            width: 400px;
+            height: 280px;
+            text-align: left; 
+            margin-left: 0;
+            margin-bottom: 30px;
+            
+        }
+
+        .img1 { 
+            width:300px;
+            height:250px;
+           float: left;
+           margin-top: 50px;
+        
+        }
+
+        .img2 { 
+            width:300px;
+            height:250px;
+            float: right;
+            margin-top: 50px;
+        
+        }
