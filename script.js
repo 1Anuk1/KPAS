@@ -584,6 +584,12 @@ console.log(productos);
     // Lógica para el botón de pagar (simulación)
     if (btnPagar) {
         btnPagar.addEventListener('click', () => {
+            // Restricción: no permitir comprar si no hay sesión de usuario
+            if (!usuarioActual) {
+                alert('debe de iniciar sesion primero');
+                return;
+            }
+
             if (carrito.length > 0) {
                 // Simulación de flujo de compra con mensaje de confirmación
                 const totalCompra = carrito.reduce((acc, item) => acc + (item.precio * item.cantidad), 0).toFixed(2);
